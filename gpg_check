@@ -1,0 +1,5 @@
+gpg --verify FILE.tar.gz.asc FILE.tar.gz
+#จะได้ key มา
+
+gpg --keyserver hkp://pgp.mit.edu --recvkeys KEYID
+#นำ Key มาใช้งาน
