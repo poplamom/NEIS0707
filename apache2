@@ -1,0 +1,9 @@
+sudo apt-get install apache2
+
+systemctl status apache2.service
+
+find /etc/rc*.d -name "*apache*"
+
+systemctl enable apache2.service
+
+systemctl list-units --type service
