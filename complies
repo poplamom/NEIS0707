@@ -1,0 +1,26 @@
+Verify Digital Signature
+gpg --verify FILE.tar.gz.asc FILE.tar.gz
+
+gpg --keyserver hkp://pgp.mit.edu --recvkeys KEYI
+
+wget http://download.lighttpd.net/lighttpd/releases-1.4.x/lighttpd-1.4.43.tar.gz
+
+cd lighttpd-1.4.43
+
+sudo apt-get install gcc
+
+apt-cache showpkg lighttpd
+
+apt-cache showpkg lighttpd
+
+apt-cache search pcre
+
+sudo apt-get install libpcre3-dev
+
+sudo apt-get install zlib1g-dev
+
+sudo apt-het install libbz2-dev
+
+./configure --prefix=/usr/local
+
+sudo make install
